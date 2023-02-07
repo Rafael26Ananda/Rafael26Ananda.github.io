@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(201, 201, 201) !important;
+}
+
+h3{
+    color: white !important;
+}
+
+a{
+    color: salmon;
+}
+
+.navbar-class{
+    background: rgb(0,202,255) !important;
+    background: linear-gradient(90deg, rgb(0, 255, 221) 40%, rgb(39, 228, 1) 64%) !important;
+}
+
+.first-card{
+    background: rgb(34,193,195) !important;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 15%, rgba(126,253,45,1) 100%) !important;
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 50px !important;
+    color: white !important;
+    width: 90% !important;
+    margin-left: 17px !important;
+}
+
+.secondary-card{
+    /* background-color: navy; */
+    background: rgb(34,86,195) !important;
+    background: linear-gradient(0deg, rgba(34,86,195,1) 15%, rgba(45,253,181,1) 100%) !important;
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 50px !important;
+    color: white !important;
+    width: 90% !important;
+    margin-left: 17px !important;
+}
+
+.front-card{
+    /* background-color: navy; */
+    background: rgb(123,34,195) !important;
+    background: linear-gradient(0deg, rgba(123,34,195,1) 41%, rgba(45,164,253,1) 100%) !important;
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 50px !important;
+    color: white !important;
+    width: 90% !important;
+    margin-left: 17px !important;
+}
+
+.back-card{
+    /* background-color: navy; */
+    background: rgb(34,30,159) !important;
+    background: linear-gradient(0deg, rgb(39, 34, 182) 20%, rgb(45, 187, 253) 100%) !important;
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 50px !important;
+    color: white !important;
+    width: 90% !important;
+    margin-left: 17px !important;
+}
+
+
+.second-card{
+    margin-top: 20px !important;
+    background-color: rgb(0, 126, 73) !important;
+    color: white !important;
+    width: 90% !important;
+    margin-left: 17px !important;
+}
+
+.third-card{
+    margin-top: 20px !important;
+    background-color: rgb(0, 126, 115) !important;
+    color: white !important;
+    width: 90% !important;
+    margin-left: 17px !important;
+}
+
+.button-link{
+    margin: 12px;
+    padding: 10px;
+    background-color: yellow !important;
+}
+
+@media only screen and (min-width: 850px){
+    .first-card{
+        margin-left: 70px !important;
+    }
+    .second-card{
+        left: 40px !important;
+    }
+
+    .coding-gif{
+        margin-left: 335px !important;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .first-card{
+        margin-left: 70px !important;
+    }
+
+    .secondary-card{
+        margin-left: 70px !important;
+    }
+
+    .front-card{
+        margin-left: 70px !important;
+    }
+
+    .back-card{
+        margin-left: 70px !important;
+    }
+
+    .second-card{
+        left: 40px !important;
+    }
+
+    .third-card{
+        left: 40px !important;
+    }
+}
